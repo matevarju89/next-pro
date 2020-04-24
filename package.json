@@ -1,0 +1,16 @@
+{
+  "name": "next_pro",
+  "version": "1.0.0",
+  "description": "next tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mate",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
