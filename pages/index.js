@@ -1,11 +1,10 @@
-import Link from 'next/link';
+import Navbar from '../components/Navbar';
+import '../scss/style.scss';
 
 const index = () => (
   <section>
+    <Navbar />
     <h1 className='hello'>Hello everybody from next.js</h1>
-    <Link href='/about'>
-      <a title='About Next'>About this project</a>
-    </Link>
   </section>
 );
 export default index;
